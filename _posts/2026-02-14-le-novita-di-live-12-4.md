@@ -7,4 +7,4 @@ tags: ["Ableton Live", "Ableton Push 3", "Live 12.4"]
 type: "youtube"
 ---
 
-{% youtube aszdMyGHkJs %}
+{% youtube "https://www.youtube.com/watch?v=aszdMyGHkJs" %}
