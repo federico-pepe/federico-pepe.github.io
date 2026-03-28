@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Ableton Live 12.4 beta e Push 2.4 beta"
+date: 2026-02-14
+categories: ["Ableton Live 12", "Ableton Push"]
+tags: ["Ableton Live", "Ableton Push 3", "Live 12.4"]
+type: "youtube"
+---
+
+{% youtube aszdMyGHkJs %}

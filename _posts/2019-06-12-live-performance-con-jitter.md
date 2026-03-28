@@ -1,0 +1,103 @@
+---
+layout: post
+title: "Live Performance con jitter"
+date: 2019-06-12 15:38:59 +0000
+categories: ["Ableton"]
+tags: ["Ableton", "Ableton Push", "Jitter", "Max/MSP", "Performance", "Visual"]
+---
+
+In occasione dell'incontro di giugno dell'[Ableton User Group Verona](https://www.facebook.com/groups/abletonusergroupverona/) ho realizzato dei visual generativi con jitter per accompagnare la musica create da due miei studenti: _Davide De Faveri_ e _Lorenzo Ghelli_.
+
+Inizialmente l'idea era quella di usare Processing ma ho incontrato una serie di problemi che avrebbero richiesto un po' più di tempo rispetto a quello che avevo a disposizione per essere risolti:
+
+- possibilità di andare in sync con la musica oppure no utilizzando Ableton Link invece che il MIDI Clock
+- possibilità di controllare i visual con un controller MIDI (Ableton Push 2)
+- gestione fluida di quattro visual differenti per altrettanti brani
+- performance elevate costanti (più di 30fps)
+
+Abbandonata l'idea di usare Processing mi sono lanciato su **Jitter** : un pacchetto di oggetti per gestire video e grafiche all'interno di Max/MSP.
+
+Partendo dagli esempi contenuti nei tutorial, ho assemblato tutto all'interno di un _MIDI Effect Rack_ in Max4Live e ho mappato i controlli attraverso delle Macro sui knob del Push.
+
+## Il video della performance
+
+https://www.youtube.com/watch?v=Dy034Z5mGrQ
+
+## La patch di jitter
+
+```
+----------begin_max5_patcher----------
+3223.3oc6cs0jaaaE94c+UvQienMQYKA.u1mVm19TcR531NSR83QCkHjVZSQ
+pPBsdcyj+6EWHo.0xKPjfRZmti8pK.f3x24fCN3CGR8a2dyrkoOgymY7mM9f
+wM27a2dyM7jXIbSw2uY11fmVEGjyK1rUoa2hSHylKxifehvS+6e2a+K+8xT2
+kgyoEJfDklrHCuhHZAaGvclyMfV2YO2.3A4eAcmowGKtt0oIjjfsXdM91kwX
+RZhw+LHI236SiCMdOdy93frpVIfr5gnjMmRKjrea5dBsh4iFyhTiB4sX5xO8
+cNVyj5L4Q+WdmAXcmYCiMdVGp4njxJFvR62u8V1KyGIx9u92u+GM9g+lwO8i
+8.uPe9v0jM1gPwX2QmnaeMP+fKrQv0Y5AWR5lMwXk.PKGtxiISjKdqZ.1Jlz
+w0TGTJGPhjHecGVTMyhnR9pqY0C3UeFGtJMNMSjOWs17NWSeOSjODX634.cY
+IA7cLc8rP.jKz1xeNqnUUjD1aCOHYynZADb1BbR.UMPVXcYE.ESes7YnosM6
+yrW6B+66RtZfevEE9CHjr8Q8o+63x0eQlBymfdLPmEED2k4hdqtlENrFYcvp
+Z.yyDXyZBjs7az9Bpx9BCF3kdS7Bg387B7mD9UtXFP.iNVSO9AUE+3f2hsog
+X40qV7knPxCrB3c3ZpCgEIFmt5ySptrsMjq0IrOOZc49qNcKKPVpJKB1SREZ
+y4ytJri3Z4vQIMg88Wc5F6gdph8gYAeo1zfIC4iidDeWnDR8XPVEDVk4GPer
+Ggiku2AOVrMYe1QFKC1sCSWgJQfan1EK8UQ0EJvxpeEg1WYc0wu75yElyMls
+NNMfzr0MytVBFbRBvhDyCnikELsgnk6I3CeJuPRVHJYRq383z0kIWltbeYKs
+AX4+c.yREsZ4GmlroRh+elMuoZHfqB0REj+PZFo6ZnDLa5x2mDQxIesviEQ9
+bk3x2lFMZXuZzHeMoQ2SEc0oQi7tt0nqow9Ky5Uk7WdYnR1i9HxyTO5i8UQW
+e5iNufzG+490G+4qZ8w2mVfg8nNBAZRcrmJ55ScD8BRc7HoYiqqaovx5cUOW
+gqtC5a0cfkmDAOiP8suJ55S8E9RR88guRdXaWJubqG8p81Z0TBafyft69s3j
+8poWVxtkoYA23cxVY+WTcsvR04HBdawwzLCjDxzalydAjb3ijpOBkJALQ5iG
+JhkTQrRj93gh3IUDuDoOdnH.G49hSh7mOTJjb+AI0gPx8HG4tjiTeB.osd6y
+ghD0A+uF20G5hR7ZmlAeKc5Wvp9WBG5.0yR38UQWc1.g9ufrAJDm8sHtRaNu
+6p5bZKLA+Epf3YmJIswxRMtWnZX.55X.r4q3hD7W64ziIuVOhlkAIaZTGwqZ
+cxZxan9Fr6LRRy1FDyHBbPLX5H1HmfHSWAQ9vSGBZ1.WyDEC6l.dduDmcrJ+
+5nX7i3r75Sj3VXjRt9rgsAeRXTvqRcj1fhjNnomgeLp75spRMHihUDJPsOS.
+kOUc.7rpIMDmkrOpx3KWVVzk3RMlHHeWAIubgaY1GPeSgkJlsNKgbvSR8ipR
+rgcZD3P496rzc3jnjiMrTkcHdcv9Xxhlg754eDGz0yrQcnalsIKJLMg0IpIF
+XIW1bTSv7i6DXKOX3kHIXWCWLUYghIsjYNcPtOeYPFSJUXdEVlIIMMtdVUWW
+LdMoH6cQIIGghjzcsmYVzlG53ZWlRybaW0MOmbpEOQtKnJDjELy60KWPbbw7
+55U+SAIQaCHXRjPD.MqxTrDyC4qxRiiqMdE47XC4DRUvWgqNALSYkAZwi1Up
+DMqRJGFsAmSpmFIXSd8TprlKkz9kESfWP8LbWLcTTu.0hqG4YqxV.qk9QVBo
+SqxC1fqlKJaN7M.C9+kyrcc41bElebJzIM72rKNaGIU4VsK1iswVOHsNrQ1x
+pGRqcVtJxPvxZqpTGJeD+ztLi2rF7mdyZ3nvSg2b.KtMghHexbJfSzULbxQy
+7eMi7GnP52P+6aovJ8cH8cD8czeTK5rh8sA78mNTFNDTFoQTlWq8fGt78QHV
+TEZW9p1ACqZfQsQrLTTF.cxFB40TRH9IIWHzB7H58JMmDd.Z5EfLaAAPsh.f
+wh.G7cHNJosEM3CNV9MCM4o6yVUJGKEYF0GnzUAIQIUtR8gClSNpfoYgBGSU
+SdMccMX6cMyIoqwVpRcTCX7wooWfTrWXUTvooWnrXxp0dQQhk6YnXq+B+f6X
+e+mj+ZzMOrLHtvarpUSZvctguE70wozo7CZmmdt7UrP978bVZOpWFeZjklV2
+.tkRw13Z1Vn4cKmSY+pmY7hGLxSLdg7ulwKYBJoIuDWEjjzlIZKsfx6tYPDg
+zN7R6WkMA.5JODGOp6pBUhCD0mbtEqII5f3v1KW0g+MYbBtKCuCmDZPkg4ih
+mLWN4xEA5mt3ICYOahmG0FrD7Y57E1+A2MJXQbKW3B0Kr.NEXAoSRUyiYL.Y
+jjFkiGXDRy2AlsiXSungBLeJhrfNqOK5olODB2WYXsSFVEasQHLdki0W4X8U
+NVGKQVDiXik5fOPAUUH9cuPOLUA6jblics5YFIGDMqfyCufTC72kty3d5eei
+w8TeuXpN1iiKPSQnbXIXtFYo.WfchvRKBMuCxvfWy7uxvY9x4FHC9g5ifFVl
+FUQd+3fZg+O.j24BpguLTo+VcXnvkqG65dtvVvkVMVEBtEXitH3tA2LeFrX+
+xlpaw43MFptgNuvn5lIxThnRn0DRWJuxApzKfScuPIr.Lk8BzozKlJZzgpRf
+MbJoQuDn6uW37JM5sRzfiMmVXKf2TRK70Eqv0i.jCNdjUbCFbH.PFFVJhGPA
+oAZiMKvIQxmVCQPp19fvCKWwCsBeIWMzFb3cJvg4qLW8JyUuxb0qLWMpnCb8
+93X5HBiSFcHBJ1SZQbVINNnIIDActz6Es1SGo9fC2pf6abAel7y7nmcj906K
+s5OxzR+gR67r.VfHzX254DFjUS.AP43XipSlZbSvr3thYgFK2ObWa6j0mqXt
+K+L9qZALM8KBn49Yb2puomya5s1.2Awnl44hlDGUCmqIbyvpxNgyTtgbUCtt
+IrOnLm.++Ek.OOxmjt8zGevOUDlBVfKPvOAbd4G7SGDF8F+SsTTMFBTswNRP
+0Mt4P4GoHnVJ3Gw0SuDBXdg3GgcbUanaI3d1KTIBIZUL9tkwAq97CowiK7eD
+GHXoefCfVtVNypZdtXN65MpUQhS42F3OgzSB7eYvOYHYny7JgQwsoKxUuy7b
+ufy7DJ2F6RGVbYh74681QPojm4DNOCXcghRylMPseWHi8jQ.Z1B3p7w25DgZ
+nKjxUbZPnXWeCg4awTLj3tUzYvg6a6lrfSsxD08FhziuiFFilhS6vxqYRaF+
+XToa9hobVidLtXK.pI03h8Ez1RWgE0INsoPkR7bjnLbnlFDy6RZMN9N5Z7OX
+b+tznDxBVqa.GDhAE2PANhHDGXAmRGEOo3o2WuP1WhRBS+hw8jHZG23eTrJV
+9XNWROgVlvmngfYOiTvFCwtISA6ne3AZXb5IsHzvMPW6WPflhWyKl8Y57nLb
+RHNy3dbVPNV7rB2vT7u6rFl1g3gom.0.9dSi1wkxYPhwRCNVMFrwR5IawXfF
+QGoQ74Rsf1uJd7OgPiAeDQ0qii1c6qJDBmLuga62pm+J+TdMdDyL7FDaDGsM
+hLq2e+c9AbXz9sG+KvyCQgg0NG9lvxhf2U7FB0i0qF9M4o4exL.8qBwah5mP
+f.5NlM5B.7YrP6UiJ7VnfFHEnfOSHobKoPCUKJNmsMJj60QwPyhtyW1S5Bee
+wC7BypuMxdlsJXfb.BN7VBnPKIeuzO7VRkgjYmvs.fsQ.9atdUe6vyQvZOIF
+lz9JnV3jdzimhA2xreqZ5Glzg1ukkJRdaczRH4fPtkVhOsGL1VBd1POkl2vJ
+DbrsjoBsjkNFSHeUGSiUNgTwzaY2YbsjqpioQ2RNpzRt5nkNESoiqkrNWymp
++zko+f.X3MjJlHrzRKohIBKcrzpJXGPGVxgpXg.3niVx6bo4AcUcw9wZ0C5L
+VGNsc4dXh7j82j8Mc6.jRc052hS5xCHnRV2zwzFdKANKsjJyPgZYdiJdK.0w
+pP.krEnkVRIaAPczRtmti+GMEEYJ9kjvEHMGk+sw12TYJIPGq5CNa9W.NE+K
+5bSgN1HdjU5c3aisuozpp5v5.3rw3APEWR7zQCYNLUHA6QGcqCwZjitkgN51
+E542pPseaBc7sHDOXEE2uDGwXUEqbjfcB5vJuKbpO5kYviNzdW.I03cr6SkY
+kis4EfWFNgb7clwrszJLpbI6RHnkaUoa+8a+e12xekC
+-----------end_max5_patcher-----------
+```

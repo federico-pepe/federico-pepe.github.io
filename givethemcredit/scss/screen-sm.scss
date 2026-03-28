@@ -1,0 +1,34 @@
+// Small screens
+html, body {
+  input[type="email"] {
+    width: 50%;
+    float: left;
+    background-color: darken($primary-blue, 20%);
+    border-bottom: 1px solid $link-color;
+    padding:20px 10px;
+    &::-webkit-input-placeholder { color: $primary-white;}
+    &:-moz-placeholder { color: $primary-white;}
+    &::-moz-placeholder { color: $primary-white;}
+    &:-ms-input-placeholder { color: $primary-white; }
+  }
+  input[type="submit"] {
+    background-color: $link-color;
+    padding:10px 15px;
+    margin:20px 15px;
+    font-weight: 900;
+    display: inline-block;
+  }
+}
+
+.main-title {
+  h1 {
+    &.logo {
+      font-size: 8em;
+    }
+  }
+}
+.chapter {
+  h2 {
+    font-size: 3em;
+  }
+}

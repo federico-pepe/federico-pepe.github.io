@@ -1,0 +1,33 @@
+// out: ../css/style.css
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$font-sans-header: 'Lato', sans-serif;
+
+$font-serif-body: 'Merriweather', serif;
+
+$primary-blue: #275687;
+$primary-white: #FAFAFA;
+$primary-black: #303030;
+
+$link-color: #f99941;
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@import 'base';
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  @import 'screen-sm';
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+  @import 'screen-md';
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+  @import 'screen-lg';
+}

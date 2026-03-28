@@ -1,0 +1,28 @@
+---
+layout: default
+title: Ableton Certified Trainer
+---
+<section class="posts">
+  {% assign postsByYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for yearGroup in postsByYear %}
+  <div class="year-group">
+    <p class="year-label">{{ yearGroup.name }}</p>
+    <ul class="post-list">
+      {% for post in yearGroup.items %}
+      <li>
+        {% case post.type %}
+        {% when 'youtube' %}
+        <i class="bi bi-youtube post-icon" aria-hidden="true"></i>
+        {% when 'video' %}
+        <i class="bi bi-file-earmark-play-fill post-icon" aria-hidden="true"></i>
+        {% when 'post' %}
+        <i class="bi bi-file-earmark-fill post-icon" aria-hidden="true"></i>
+        {% endcase %}
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m" }}</time>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</section>
