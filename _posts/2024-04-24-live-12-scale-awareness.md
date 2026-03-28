@@ -10,7 +10,7 @@ La scale awareness non è una novità vera e propria di Ableton Live 12 ma si tr
 
 Come per i [Generatori MIDI](https://blog.federicopepe.com/2024/04/midi-generator-in-ableton-live-12/) ho fatto un video che ho caricato sul canale YouTube degli Ableton Certified Trainer me se, come me, preferite leggere una spiegazione invece che guardarla, potete proseguire con questo articolo.
 
-{% youtube nolUMZt1BZk %}
+{% youtube "https://www.youtube.com/watch?v=nolUMZt1BZk" %}
 
 ## Cos'è la scale awareness?
 

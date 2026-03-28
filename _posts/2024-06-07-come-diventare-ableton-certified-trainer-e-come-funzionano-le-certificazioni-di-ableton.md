@@ -13,7 +13,7 @@ La cosa divertente è che tutte le informazioni su come funziona il programma di
 
 In questo articolo voglio fare il punto della situazione attuale ma facendo presente di fare sempre riferimento a [www.ableton.com](https://www.ableton.com) per trovare tutte le informazioni aggiornate.
 
-{% youtube O__Ffjp7bYc %}
+{% youtube "https://www.youtube.com/watch?v=O__Ffjp7bYc" %}
 
 ## Le certificazioni rilasciate da Ableton
 

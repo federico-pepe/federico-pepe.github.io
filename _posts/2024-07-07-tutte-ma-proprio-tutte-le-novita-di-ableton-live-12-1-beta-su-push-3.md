@@ -14,7 +14,7 @@ Se non volete rischiare di incorrere in problemi perché avete progetti con dell
 
 Molte novità di Live 12.1 riguardano Push ed è per questo motivo che ho deciso di fare un video per mostrare tutte (ma proprio tutte) le novità incluse in questa versione.
 
-{% youtube 7AfzsHZUYdc %}
+{% youtube "https://www.youtube.com/watch?v=7AfzsHZUYdc" %}
 
 Il video è diviso in capitoli per permettervi di navigare velocemente tra le varie sezioni.
 

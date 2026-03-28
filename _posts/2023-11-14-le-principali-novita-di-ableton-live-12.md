@@ -6,7 +6,7 @@ categories: ["Ableton Live 12"]
 tags: ["Ableton", "Ableton Live 12", "Live 12"]
 ---
 
-https://www.youtube.com/watch?v=lvOXccCz8A4
+{% youtube "https://www.youtube.com/watch?v=lvOXccCz8A4" %}
 
 _Ableton ha appena annunciato la nuova versione di Live. Live 12 è disponibile da oggi in beta pubblica e sarà rilasciato ufficialmente nei prossimi mesi. Per il canale YouTube degli Ableton Certified Trainer Italiani ho realizzato questo video in cui ho fatto una panoramica molto rapida delle principali novità contenute in questo aggiornamento._
 

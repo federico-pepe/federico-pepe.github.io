@@ -10,7 +10,7 @@ Ableton oggi ha rilasciato la sua prima applicazione per dispositivi mobili: **N
 
 Ho realizzato questo video per il canale [YouTube degli Ableton Certified Trainer](https://www.youtube.com/channel/UCPVG-Wb-CAXslN2HAxI80sw) in cui spiego passo passo come iniziare a usare l'applicazione.
 
-{% youtube 64PUvG-buEQ %}
+{% youtube "https://www.youtube.com/watch?v=64PUvG-buEQ" %}
 
 Devo ammettere che nello scrivere questo post così come nel realizzare il video qui sopra mi sono trovato in difficoltà: Note ha così tante funzioni che è davvero difficile condensarle tutte. Questo post stava diventando chilometrico e, piuttosto che non parlare di qualcosa, ho preferito cambiare approccio. Alla fine ho pensato che potesse valere la pena descrivere a grandi linee il funzionamento della app in questo primo post e, in un secondo momento, approfondire con altri articoli o video dedicati e più dettagliati.
 

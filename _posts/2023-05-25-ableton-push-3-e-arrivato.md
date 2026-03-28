@@ -26,7 +26,7 @@ Lo dico già ora e lo ripeterò dopo: se avete già una licenza di Live 11 sul v
 
 ## Le novità di Ableton Push 3
 
-https://www.youtube.com/watch?v=Sty\_pswx9UY
+{% youtube "https://www.youtube.com/watch?v=Sty\_pswx9UY" %}
 
 _Se preferite i video, ne ho realizzato uno per il canale ufficiale degli Ableton Certified Trainer italiani._
 

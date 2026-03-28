@@ -8,7 +8,7 @@ tags: ["Ableton", "Ableton Live 12", "MIDI Generator"]
 
 Se anche a voi è capitato di sedervi davanti al computer, aprire la vostra _digital audio workstation_ preferita e non riuscire a produrre nemmeno un'idea interessante, ecco che i **MIDI Generator** di Ableton Live 12 potrebbero esservi d'aiuto.
 
-https://www.youtube.com/watch?v=iPYXKYo4FD0&pp=ygUfZ2VuZXJhdG9yaSBtaWRpIGFibGV0b24gbGl2ZSAxMg%3D%3D
+{% youtube "https://www.youtube.com/watch?v=iPYXKYo4FD0" %}
 
 _Se vi stufate a leggere, potete vedere il video che ho realizzato per il canale YouTube degli Ableton Certified Trainer._
 
