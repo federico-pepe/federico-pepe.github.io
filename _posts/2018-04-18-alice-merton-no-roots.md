@@ -6,9 +6,13 @@ categories: ["Track Deconstruction"]
 tags: ["Ableton Live 10", "Alice Merton", "Armonia", "Melodia", "No Roots", "Riff", "Ritmo", "Struttura", "Track Deconstruction"]
 ---
 
-_Track Deconstruction_ è una nuova rubrica che, attraverso l'analisi di brani più o meno famosi, ha l'obiettivo di spiegare come vengono scritte canzoni di successo e di farci capire che, per nostra fortuna, non ci sono particolari trucchi o segreti. Oggi analizziamo insieme il brano&nbsp; **No Roots** di&nbsp; **Alice Merton**. https://www.youtube.com/watch?v=PUdyuKaGQd4
+_Track Deconstruction_ è una nuova rubrica che, attraverso l'analisi di brani più o meno famosi, ha l'obiettivo di spiegare come vengono scritte canzoni di successo e di farci capire che, per nostra fortuna, non ci sono particolari trucchi o segreti. Oggi analizziamo insieme il brano&nbsp; **No Roots** di&nbsp; **Alice Merton**. 
+
+{% youtube "https://www.youtube.com/watch?v=PUdyuKaGQd4" %}
+---
 ## Premessa
 Se ascoltate la radio è molto probabile che conosciate già questa canzone: negli ultimi due mesi è andata in rotazione nelle principali stazioni italiane. Il motivo per cui l'ho scelta è molto semplice: fin dalla prima volta che l'ho sentito l'ho trovato orecchiabile e interessante da analizzare per la sua apparente semplicità. Facendo una veloce ricerca si scopre che&nbsp; **Alice Merton** , classe 1993, è una cantante tedesco-canadese che, con&nbsp; **Paul Grauwinkel** ,&nbsp;ha fondato un'etichetta discografica, la&nbsp;_Paper Plane Records international_ con la quale ha pubblicato il suo singolo&nbsp; **No Roots** e l'omonimo EP. Nessun&nbsp;_talent show_ né&nbsp;_major_ discografica o, addirittura, _etichetta indipendente_ di successo&nbsp;alle spalle per supportare il suo singolo; con questo brano è riuscita ad arrivare al successo e le 79 milioni di visualizzazioni del video su YouTube – nel momento in cui scrivo – ne sono la prova.
+
 ## Metro, BPM e struttura del brano
 Quando analizzo un brano mi piace partire subito dalle cose più semplici: il metro è un classico&nbsp; **4/4** , la velocità del brano è&nbsp; **116 bpm**. Di norma preferisco non concentrarmi subito su _note, accordi e arrangiamento_ perché richiedono un minimo di competenze musicali. Al contrario scrivere la struttura di un brano, ovvero al suddivisione in verso, ritornello, ecc... è una cosa piuttosto semplice che chiunque sappia contare fino a 10 e sia armato di carta e penna può fare senza troppa difficoltà. Ho importato il brano in&nbsp; **Ableton Live 10** , impostato il metro e il BPM e mi sono assicurato che l'allineamento del punto di inizio coincidesse con _1.1.1._[![Alice Merton - No Roots - Song Sctructure](/assets/uploads/2018/04/Alice_Merton-No_Roots-Song_Structure-1024x618.jpg)](/assets/uploads/2018/04/Alice_Merton-No_Roots-Song_Structure.jpg) La struttura del brano è la seguente:
 ```
@@ -74,4 +78,4 @@ La parte ritmica di batteria è davvero semplice: cassa praticamente sempre sui 
 ## Melodia
 Trascrivere la melodia di un brano è sempre la parte che trovo più difficile. Per mia fortuna in questo caso è composta da alcune cellule che si ripetono sempre uguali: [![Alice Merton - Melody](/assets/uploads/2018/04/Alice-Merton-Melody-Verse-1-1024x618.jpg)](/assets/uploads/2018/04/Alice-Merton-Melody-Verse-1.jpg) La melodia del primo verso Lascio a voi il divertimento di trascrivere la melodia del _pre-chorus&nbsp;_e del&nbsp;_chorus_.
 ## Conclusione
-Mancano ancora alcuni dettagli del brano ma il grosso del lavoro è stato fatto. Ora si tratta solo di rimettere insieme le idee, ordinarle e farle suonare insieme. Ecco il risultato finale che ho ottenuto dall'intro fino alla conclusione del primo ritornello: [audio mp3="/assets/uploads/2018/04/Alice-Merton-No-Roots.mp3"][/audio]
+Mancano ancora alcuni dettagli del brano ma il grosso del lavoro è stato fatto. Ora si tratta solo di rimettere insieme le idee, ordinarle e farle suonare insieme. Ecco il risultato finale che ho ottenuto dall'intro fino [alla conclusione del primo ritornello](/assets/uploads/2018/04/Alice-Merton-No-Roots.mp3)

@@ -21,7 +21,8 @@ Partendo dagli esempi contenuti nei tutorial, ho assemblato tutto all'interno di
 
 ## Il video della performance
 
-https://www.youtube.com/watch?v=Dy034Z5mGrQ
+{% youtube "https://www.youtube.com/watch?v=Dy034Z5mGrQ" %}
+
 
 ## La patch di jitter
 

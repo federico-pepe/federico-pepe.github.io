@@ -151,4 +151,6 @@ void noteOff(int channel, int pitch, int velocity) {
   size = 0;
 }
 ```
-Ed ecco il risultato: https://www.youtube.com/watch?v=eqFHk1\_AN84
+Ed ecco il risultato: 
+
+{% youtube "https://www.youtube.com/watch?v=eqFHk1\_AN84" %}

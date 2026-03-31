@@ -115,4 +115,4 @@ Dal 5 marzo, giorno in cui è stato rilasciato Live 12 ufficialmente, erano disp
 
 Vi segnalo, nello specifico, un bundle di 12 generatori creati da Philip Meyer che potete acquistare direttamente [sul suo Gumroad](https://philipmeyer.gumroad.com/l/midi-tools-bundle) e che, magari, approfondiremo in un articolo in futuro.
 
-JEKYLLYOUTUBE\_LpA66peATgPLACEHOLDER
+{% youtube "https://www.youtube.com/watch?v=_LpA66peATg" %}
