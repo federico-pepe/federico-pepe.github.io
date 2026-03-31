@@ -3,6 +3,8 @@ layout: page
 title: About me
 permalink: /about/
 ---
+[English Version](/en/about)
+
 ## Bio (breve)
 Da sempre appassionato di musica e tecnologia, Federico Pepe oggi ama definirsi semplicemente un *esperto di tecnologie musicali*.
 
