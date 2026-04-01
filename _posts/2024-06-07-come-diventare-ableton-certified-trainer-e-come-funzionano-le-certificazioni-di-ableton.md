@@ -5,6 +5,7 @@ date: 2024-06-07 12:34:18 +0000
 categories: ["Ableton"]
 tags:
   ["Ableton", "Ableton Certified Trainer", "Ableton Certified Training Center"]
+description: "Come diventare Ableton Certified Trainer: requisiti, processo di certificazione, differenza tra trainer e training center, e come riconoscere i certificati ufficiali."
 ---
 
 Ogni volta che tengo un incontro o un workshop sui prodotti Ableton, oppure quando le persone scoprono che sono un Ableton Certified Trainer, la domanda che mi viene sempre fatta è "come faccio a diventare un Ableton Certified Trainer"?

@@ -4,6 +4,7 @@ title: "Live 12: Scale Awareness"
 date: 2024-04-24 12:41:09 +0000
 categories: ["Ableton Live 12"]
 tags: ["Ableton", "Ableton Live 12", "Editor MIDI", "Meld", "Scale Awareness"]
+description: "La scale awareness di Ableton Live 12 aggiorna effetti MIDI, generatori e il synth Meld per seguire tonalità e scala: tutto quello che c'è da sapere per usarla al meglio."
 ---
 
 La scale awareness non è una novità vera e propria di Ableton Live 12 ma si tratta di un importante aggiornamento della funzionalità **_Tonalità e scale_** che era stata aggiunta in Live 11.

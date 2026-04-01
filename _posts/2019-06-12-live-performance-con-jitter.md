@@ -4,6 +4,7 @@ title: "Live Performance con jitter"
 date: 2019-06-12 15:38:59 +0000
 categories: ["Ableton"]
 tags: ["Ableton", "Ableton Push", "Jitter", "Max/MSP", "Performance", "Visual"]
+description: "Visual generativi con Jitter e Max4Live controllati da Ableton Push 2: come ho costruito la patch per sincronizzare grafica e musica dal vivo a Verona."
 ---
 
 In occasione dell'incontro di giugno dell'[Ableton User Group Verona](https://www.facebook.com/groups/abletonusergroupverona/) ho realizzato dei visual generativi con jitter per accompagnare la musica create da due miei studenti: _Davide De Faveri_ e _Lorenzo Ghelli_.

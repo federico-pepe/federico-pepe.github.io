@@ -4,6 +4,7 @@ title: "Ableton Note: l'app per iOS di Ableton"
 date: 2022-10-18 10:24:00 +0000
 categories: ["Ableton Note"]
 tags: ["Ableton", "Ableton Note", "iOS"]
+description: "Ableton Note è la prima app iOS di Ableton per catturare idee musicali in mobilità. Panoramica completa: drum kit, synth, campionatore, automazioni e Ableton Cloud."
 ---
 
 Ableton oggi ha rilasciato la sua prima applicazione per dispositivi mobili: **Note**. Si tratta di un'app pensata per catturare e sviluppare velocemente delle idee musicali in mobilità e, grazie alla funzionalità **Ableton Cloud** , svilupparle in Live un secondo momento.

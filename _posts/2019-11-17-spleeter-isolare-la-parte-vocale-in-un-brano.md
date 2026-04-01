@@ -4,6 +4,7 @@ title: "Spleeter: Isolare la parte vocale in un brano"
 date: 2019-11-17 16:28:00 +0000
 categories: ["Music Technology"]
 tags: ["AI", "Deezer", "Music Technology", "Python", "Spleeter", "Tensorflow"]
+description: "Spleeter di Deezer isola la voce da un brano usando l'intelligenza artificiale. Guida all'installazione su Mac e come separare 2, 4 o 5 stems da un mix stereo."
 ---
 
 **Aggiornamento al 2 marzo 2021**  

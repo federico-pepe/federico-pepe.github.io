@@ -4,6 +4,7 @@ title: "Ottimizzare le performance di Ableton Live 11"
 date: 2021-06-20 15:28:06 +0000
 categories: ["Ableton"]
 tags: ["Ableton Live 11", "CPU", "Live 11", "Performance"]
+description: "Guida pratica per ottimizzare Ableton Live 11: buffer size, sample rate, bit depth, freeze delle tracce, SSD, indicizzazione e tutti i consigli per evitare audio dropouts."
 ---
 
 Ottimizzare le performance di Ableton Live 11 è uno step importantissimo per evitare che il computer vada in overload o si creino delle interruzioni dell'audio. Dato che molti utenti lamentano un peggioramento delle prestazioni rispetto alle versioni precedenti, ho pensato potesse essere utile condividere alcuni suggerimenti per aiutare a migliorare le prestazioni di Live 11.

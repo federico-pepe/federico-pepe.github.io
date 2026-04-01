@@ -2,8 +2,9 @@
 layout: post
 title: "Libreria Nice Color Palettes per Processing"
 date: 2021-02-22 22:03:24 +0000
-categories: ["Colors", "Librerie"]
+categories: ["Processing", "Colors", "Librerie"]
 tags: ["Colors", "librerie", "Nice Color Palettes", "Palette", "Processing"]
+description: "Nice Color Palettes è la mia libreria per Processing che offre accesso rapido a 100 palette di colori armoniose tratte da Colour Lovers. Installazione e guida all'uso."
 ---
 
 Quasi due anni fa ho sviluppato la mia prima libreria per Processing chiamata **Nice Color Palettes** _._ Più che sviluppata da zero sarebbe meglio dire che ho effettuato il _porting_ in Java della libreria _[nice-color-palettes](https://github.com/Jam3/nice-color-palettes)_ sviluppata in javascript da [Matt Deslauriers](https://www.mattdesl.com).

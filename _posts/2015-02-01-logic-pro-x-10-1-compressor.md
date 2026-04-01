@@ -3,7 +3,8 @@ layout: post
 title: "Logic Pro X 10.1 Compressor"
 date: 2015-02-01 16:44:42 +0000
 categories: ["Logic Pro X"]
-tags: ["Compressor", "DBX160", "Focusrite Red 3", "LA2A", "Logic Pro X", "SSL G Bus", "UA1176"]
+tags: ["Logic Pro X", "Compressor", "DBX160", "Focusrite Red 3", "LA2A", "SSL G Bus", "UA1176"]
+description: "Il compressore di Logic Pro X 10.1 ha una nuova interfaccia che rivela finalmente le emulazioni hardware: UA 1176, LA2A, SSL G Bus, DBX 160 e Focusrite Red 3."
 ---
 
 One of the best feature introduced with the latest update of Logic Pro X 10.1 is the new GUI for the built-in compressor plug-in. With this new interface is much easier to access the different emulations of circuit type that were a «hidden secret» for many users&nbsp;in&nbsp;the previous versions.

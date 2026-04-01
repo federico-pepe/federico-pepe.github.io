@@ -3,6 +3,7 @@ layout: post
 title: "What is sound?"
 date: 2015-05-24 16:57:50 +0000
 categories: ["Audio Engineering"]
+description: "Cos'è il suono? Una spiegazione chiara di onde sonore, compressione e rarefazione dell'aria, e come il nostro orecchio trasforma le vibrazioni in percezione uditiva."
 ---
 
 When I teach my Audio Engineering class, in&nbsp;the very first lesson I always ask my students what is sound for them. The answers are always interesting because&nbsp;_sound_ is something that we all experience every day:&nbsp;we are surrounded by it&nbsp;but, nonetheless, we struggle to find the right words to describe it. After listening to all the answers, the second thing that I usually do is showing them this awesome 3 minute video made by Soundcloud. https://vimeo.com/30419922

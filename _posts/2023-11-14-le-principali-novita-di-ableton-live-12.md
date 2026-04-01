@@ -4,6 +4,7 @@ title: "Le principali novità di Ableton Live 12"
 date: 2023-11-14 13:47:53 +0000
 categories: ["Ableton Live 12"]
 tags: ["Ableton", "Ableton Live 12", "Live 12"]
+description: "Ableton ha appena annunciato la nuova versione di Live. Live 12 è disponibile da oggi in beta pubblica e sarà rilasciato ufficialmente nei prossimi mesi. Per il canale YouTube degli Ableton Certified Trainer Italiani ho realizzato questo video in cui ho fatto una panoramica molto rapida delle principali novità contenute in questo aggiornamento."
 ---
 
 {% youtube "https://www.youtube.com/watch?v=lvOXccCz8A4" %}

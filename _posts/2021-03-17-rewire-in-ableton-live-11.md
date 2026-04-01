@@ -4,6 +4,7 @@ title: "Rewire in Ableton Live 11"
 date: 2021-03-17 22:05:02 +0000
 categories: ["Ableton"]
 tags: ["Ableton Live 11", "Audio", "Driver IAC", "Live 11", "Propellerhead", "Rewire", "Steinberg"]
+description: "Il ReWire in Ableton Live 11 è disabilitato di default ma si può riattivare con una riga nel file Options.txt. Spiego come fare e quali alternative usare per MIDI e audio."
 ---
 
 Da quando Live 11 è stato rilasciato, sono in molti a lamentarsi per l'eliminazione del Rewire. In realtà questa funzione è stato disabilitata di default ma è possibile riattivarla facendo come segue:

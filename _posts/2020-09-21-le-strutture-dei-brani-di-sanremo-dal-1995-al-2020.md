@@ -4,6 +4,7 @@ title: "Le strutture dei brani vincitori di Sanremo dal 1995 al 2020"
 date: 2020-09-21 10:31:04 +0000
 categories: ["Ableton", "Music", "Track Deconstruction"]
 tags: ["Arrangiamento", "Brani", "Festival di Sanremo", "Musica", "Sanremo", "Strutture"]
+description: "Ho trascritto le strutture di 25 brani vincitori di Sanremo dal 1995 al 2020 in un progetto Ableton Live scaricabile gratis: uno strumento pratico per chi compone."
 ---
 
 Quando si compone musica capita frequentemente di bloccarsi in un loop di 8 battute. Siamo riusciti a scrivere 8 battute spettacolari complete di tutto ma non sappiamo come svilupparle in un brano finito della durata di tre o quattro minuti.

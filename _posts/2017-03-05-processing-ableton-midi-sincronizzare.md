@@ -4,6 +4,7 @@ title: "Processing e Ableton: sincronizzare musica e visual via MIDI"
 date: 2017-03-05 14:03:54 +0000
 categories: ["Ableton", "Audio"]
 tags: ["Albeton Live", "MIDI", "Processing", "Sincronizzazione"]
+description: "Come sincronizzare visual generativi in Processing con la musica di Ableton Live via MIDI, usando la libreria The MidiBus e il driver IAC su macOS."
 ---
 
 Oggi sfrutteremo Processing per creare dei semplici visual sincronizzati con la musica attraverso il protocollo MIDI. Il software musicale che userò per fare gli esempi è Ableton Live 9 ma è possibile&nbsp;usare qualsiasi Digital Audio Workstation in grado di inviare messaggi MIDI. Lo schema delle connessioni, dunque, sarà: Ableton Live gestirà la musica e invierà, attraverso dei messaggi MIDI, delle informazioni che Processing acquisirà in input per generare i visual.

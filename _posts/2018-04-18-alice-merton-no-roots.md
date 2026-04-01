@@ -4,6 +4,7 @@ title: "Alice Merton - No Roots"
 date: 2018-04-18 16:58:10 +0000
 categories: ["Track Deconstruction"]
 tags: ["Ableton Live 10", "Alice Merton", "Armonia", "Melodia", "No Roots", "Riff", "Ritmo", "Struttura", "Track Deconstruction"]
+description: "Track deconstruction di No Roots di Alice Merton: struttura, riff di basso, armonia in Bm, ritmica backbeat e melodia analizzati battuta per battuta in Ableton Live."
 ---
 
 _Track Deconstruction_ è una nuova rubrica che, attraverso l'analisi di brani più o meno famosi, ha l'obiettivo di spiegare come vengono scritte canzoni di successo e di farci capire che, per nostra fortuna, non ci sono particolari trucchi o segreti. Oggi analizziamo insieme il brano&nbsp; **No Roots** di&nbsp; **Alice Merton**. 

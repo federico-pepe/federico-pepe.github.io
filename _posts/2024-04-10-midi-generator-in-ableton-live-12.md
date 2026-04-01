@@ -4,6 +4,7 @@ title: "MIDI Generator in Ableton Live 12"
 date: 2024-04-10 11:12:23 +0000
 categories: ["Ableton Live 12"]
 tags: ["Ableton", "Ableton Live 12", "MIDI Generator"]
+description: "I MIDI Generator di Ableton Live 12 (Rhythm, Seed, Shape, Stacks) spiegati nel dettaglio: come usarli per superare il blocco creativo e generare ritmi, melodie e accordi."
 ---
 
 Se anche a voi è capitato di sedervi davanti al computer, aprire la vostra _digital audio workstation_ preferita e non riuscire a produrre nemmeno un'idea interessante, ecco che i **MIDI Generator** di Ableton Live 12 potrebbero esservi d'aiuto.

@@ -4,6 +4,7 @@ title: "Tutte le novità di Ableton Live 12.1 (beta) su Push 3"
 date: 2024-07-07 12:39:46 +0000
 categories: ["Ableton Live 12", "Ableton Push"]
 tags: ["Ableton", "Ableton Push 3", "Live 12.1"]
+description: "Ableton Live 12.1 beta porta su Push 3 mapping delle Macro, Macro Variations, hotspot WiFi, filtri nel browser e molto altro: tutte le novità spiegate nel dettaglio."
 ---
 
 Ableton la scorsa settimana ha rilasciato la versione 12.1 in public beta. Chi possiede una licenza di Ableton Live 12 può iscriversi al [programma di beta](https://www.ableton.com/en/beta/) testing e scaricare questa versione per testarla in anteprima.

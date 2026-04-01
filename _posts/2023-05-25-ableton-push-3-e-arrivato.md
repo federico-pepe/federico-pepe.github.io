@@ -4,6 +4,7 @@ title: "Ableton Push 3 è arrivato"
 date: 2023-05-25 18:16:46 +0000
 categories: ["Ableton Push"]
 tags: ["Ableton Push", "Ableton Push 3", "Standalone"]
+description: "Ableton Push 3 è disponibile in versione Controller e Standalone. Pad MPE, scheda audio integrata, batteria, SSD e un processore dedicato: ecco le mie impressioni."
 ---
 
 Due giorni fa Ableton [ha annunciato e messo in vendita](http://ableton.com/push) la nuova versione di Push. Ho deciso di scrivere questo post sia per parlare delle novità introdotte che per esprimere qualche considerazione personale avendo avuto la fortuna di averne uno in anteprima.
