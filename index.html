@@ -23,6 +23,7 @@ title: Ableton Certified Trainer
         {% elsif post.excerpt %}
         <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
         {% endif %}
+        <a class="read-more" href="{{ post.url | relative_url }}">Continue reading</a>
       </div>
     </article>
     {% endfor %}

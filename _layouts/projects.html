@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="page">
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="projects-grid">
+    {% assign sorted_projects = site.projects | sort: "order" %}
+    {% for project in sorted_projects %}
+    <div class="project-card">
+      <div class="project-card-thumb{% unless project.thumb %} is-placeholder{% endunless %}">
+        {% if project.thumb %}<img src="{{ project.thumb | relative_url }}" alt="{{ project.title }}">{% endif %}
+      </div>
+      <div class="project-card-body">
+        <h2 class="project-title">{{ project.title }}</h2>
+        <p class="project-desc">{{ project.description }}</p>
+        {% if project.link %}<a class="project-link" href="{{ project.link }}">{{ project.link_label | default: project.link }}</a>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</article>

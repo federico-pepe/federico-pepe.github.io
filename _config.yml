@@ -6,6 +6,14 @@ author: Federico Pepe
 lang: it
 timezone: Europe/Rome
 
+# Collections
+collections:
+  projects:
+    output: false
+    sort_by: order
+  teaching:
+    output: false
+
 # Build
 markdown: kramdown
 highlighter: rouge

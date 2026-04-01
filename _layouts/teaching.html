@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="page">
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <section class="posts">
+    {% assign sorted_events = site.teaching | sort: "date" | reverse %}
+    {% assign grouped = sorted_events | group_by_exp: "item", "item.date | date: '%Y'" %}
+    {% for group in grouped %}
+    <div class="year-group">
+      <p class="year-label">{{ group.name }}</p>
+      <ul class="teaching-list">
+        {% for event in group.items %}
+        <li>
+          <div class="event-name">{{ event.title }}{% if event.collaborators %} <span class="event-collaborators">w/ {{ event.collaborators }}</span>{% endif %}</div>
+          <div class="event-meta">
+            <span class="location">{{ event.location }}</span>
+            <time datetime="{{ event.date | date: "%Y-%m-%d" }}">{{ event.date_label }}</time>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+</article>
