@@ -1,8 +1,8 @@
 ---
 title: Nice Color Palettes for Processing
-description: Una libreria di palette di colori per Processing/p5.js, ispirata a Nice Color Palettes.
+description: A Processing Library to help you pick some nice color palettes.
 link: https://github.com/federico-pepe/nice-color-palettes
 link_label: GitHub
-thumb:
-order: 4
+thumb: /assets/thumbs/nice-color-palette.png
+order: 3
 ---
