@@ -525,13 +525,24 @@ nav {
   }
 
   blockquote {
-    border-left: 1px solid var(--ink);
-    padding-left: 1.5rem;
+    background: var(--warm);
+    border-left: 3px solid var(--faint);
+    padding: 1.25rem 1.5rem;
     font-style: italic;
     color: #3a3530;
-    font-size: 1.02rem;
-    line-height: 1.72;
-    margin: 2rem 0;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    cite {
+      font-family: var(--sans);
+      text-transform: uppercase;
+      color:var(--accent);
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      display: block;
+      font-size: 0.75rem;
+      font-style: normal;
+      margin-top: 1.25rem;
+    }
   }
 
   code {
@@ -721,6 +732,27 @@ nav {
     height: auto;
     display: block;
     margin: 1.5rem 0;
+  }
+
+  blockquote {
+    background: var(--warm);
+    border-left: 3px solid var(--faint);
+    padding: 1.25rem 1.5rem;
+    font-style: italic;
+    color: #3a3530;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    cite {
+      font-family: var(--sans);
+      text-transform: uppercase;
+      color:var(--accent);
+      font-weight: 400;
+      letter-spacing: 0.12em;
+      display: block;
+      font-size: 0.75rem;
+      font-style: normal;
+      margin-top: 1.25rem;
+    }
   }
 }
 

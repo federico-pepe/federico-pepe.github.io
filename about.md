@@ -44,7 +44,7 @@ A marzo 2025 tiene all'ISIA di Urbino un workshop e una lecture dal titolo “Pr
 
 Nel 2025 fonda **Frequenze**: un Ableton Certified Training Center che propone corsi online su tutto quello che riguarda i prodotti Ableton e, più in generale, la produzione musicale.
 
-> I musicisti devono suonare gli strumenti che meglio riflettono il tempo in cui si vive, usare la tecnologia che ti può dare tutto quello che vuoi ascoltare. E tutti quei puristi se ne vanno in giro a parlare di come gli strumenti elettrici rovineranno la musica. È la musica cattiva quella che rovinerà la musica, non gli strumenti che i musicisti decidono di usare. Non ci vedo niente di sbagliato con gli strumenti elettrici, fintanto che ci saranno dei grandi musicisti a suonarli veramente bene. – Miles Davis
+> I musicisti devono suonare gli strumenti che meglio riflettono il tempo in cui si vive, usare la tecnologia che ti può dare tutto quello che vuoi ascoltare. E tutti quei puristi se ne vanno in giro a parlare di come gli strumenti elettrici rovineranno la musica. È la musica cattiva quella che rovinerà la musica, non gli strumenti che i musicisti decidono di usare. Non ci vedo niente di sbagliato con gli strumenti elettrici, fintanto che ci saranno dei grandi musicisti a suonarli veramente bene. <cite>– Miles Davis</cite>
 
 ## Contatti
 

@@ -44,7 +44,7 @@ In March 2025 he gave a workshop and lecture titled "Processing and Generative D
 
 In 2025 he co-founded **Frequenze**: an Ableton Certified Training Center offering online courses on everything related to Ableton products and music production in general.
 
-> Musicians have to play the instruments that best reflect the times we're in, play the technology that will give you what you want to hear. All these purists are walking around talking about how electrical instruments will ruin music. Bad music is what will ruin music, not the instruments the musicians choose to play. I don't see nothing wrong with electrical instrumens as long as you get great musicians who will play them right – Miles Davis
+> Musicians have to play the instruments that best reflect the times we're in, play the technology that will give you what you want to hear. All these purists are walking around talking about how electrical instruments will ruin music. Bad music is what will ruin music, not the instruments the musicians choose to play. I don't see nothing wrong with electrical instrumens as long as you get great musicians who will play them right <cite>– Miles Davis</cite>
 
 ## Contact
 
