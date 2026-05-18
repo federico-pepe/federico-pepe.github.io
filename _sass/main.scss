@@ -1,12 +1,12 @@
-// ── Braun / Dieter Rams theme ─────────────────────────────────────────────────
+// ── Minimal neutral theme ─────────────────────────────────────────────────────
 //
 //  Colour palette
-//  --bg      #F5F0E8   warm cream
-//  --ink     #1C1917   warm near-black
-//  --mid     #7A7268   warm grey
-//  --faint   #D4CECC   warm hairline
-//  --warm    #EAE5DC   warm fill (code bg, colophon)
-//  --accent  #C8470A   Braun orange — use sparingly
+//  --bg      #FAFAFA   near-white
+//  --ink     #111111   near-black
+//  --mid     #888888   neutral grey
+//  --faint   #E5E5E5   hairline
+//  --fill    #F2F2F2   light fill (code bg, colophon)
+//  --accent  #0033CC   blue — use sparingly
 //
 //  Typography: Georgia (body) · system-ui (headings/UI) · Courier New (mono)
 //  Layout: mobile-first — default = mobile, desktop at min-width: 601px
@@ -14,12 +14,12 @@
 // ── Variables ─────────────────────────────────────────────────────────────────
 
 :root {
-  --bg:     #F5F0E8;
-  --ink:    #1C1917;
-  --mid:    #7A7268;
-  --faint:  #D4CECC;
-  --warm:   #EAE5DC;
-  --accent: #C8470A;
+  --bg:     #FAFAFA;
+  --ink:    #030303;
+  --mid:    #888888;
+  --faint:  #E5E5E5;
+  --fill:   #F2F2F2;
+  --accent: #0000FF;
   --col:    700px;
   --sans:   system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --serif:  "Source Serif 4", ui-serif, Georgia, serif;
@@ -221,14 +221,14 @@ nav {
 .colophon {
   margin: 0.75rem 0 1.5rem;
   padding: 1.1rem 1.25rem;
-  background: var(--warm);
+  background: var(--fill);
   border-left: 3px solid var(--faint);
 
   p {
     font-family: var(--serif);
     font-size: 0.88rem;
     font-style: italic;
-    color: #3a3530;
+    color: #111111;
     line-height: 1.65;
     margin: 0;
   }
@@ -256,13 +256,14 @@ nav {
 
 .year-label {
   font-family: var(--sans);
-  font-size: 0.62rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--mid);
   padding: 1.5rem 0 0.6rem;
   border-top: 1px solid var(--faint);
+  text-align: center;
 }
 
 .year-group:first-child .year-label {
@@ -316,7 +317,7 @@ nav {
 
 .post-item-body h2 {
   font-family: var(--sans);
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.3;
   letter-spacing: -0.01em;
@@ -332,7 +333,7 @@ nav {
 .post-item-excerpt {
   font-family: var(--serif);
   font-size: 0.85rem;
-  color: #3a3530;
+  color: #111111;
   line-height: 1.62;
   margin-top: 0.45rem;
 }
@@ -405,7 +406,7 @@ nav {
   }
 
   .post-item-body h2 {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -466,14 +467,15 @@ nav {
 
 .post-content {
   padding: 1.75rem 0;
+  //padding: 0;
   border-top: 1px solid var(--ink);
 
-  > * + * { margin-top: 1.35rem; }
+  //> * + * { //margin-top: 1.35rem; }
 
   p {
-    font-family: var(--serif);
+    font-family: var(--sans);
     font-size: 1rem;
-    line-height: 1.78;
+    //line-height: 1.78;
   }
 
   h2, h3, h4 {
@@ -525,11 +527,11 @@ nav {
   }
 
   blockquote {
-    background: var(--warm);
+    background: var(--fill);
     border-left: 3px solid var(--faint);
     padding: 1.25rem 1.5rem;
     font-style: italic;
-    color: #3a3530;
+    color: #111111;
     font-size: 0.9rem;
     line-height: 1.65;
     cite {
@@ -548,13 +550,13 @@ nav {
   code {
     font-family: var(--mono);
     font-size: 0.84em;
-    background: var(--warm);
+    background: var(--fill);
     padding: 0.1em 0.38em;
   }
 
   pre {
     background: var(--ink);
-    color: #E0DCD4;
+    color: #F2F2F2;
     padding: 1.5rem;
     overflow-x: auto;
     margin: 1.75rem 0;
@@ -626,8 +628,8 @@ nav {
 // ── Post navigation ───────────────────────────────────────────────────────────
 
 .post-nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-top: 2.5rem;
   padding-top: 1.5rem;
@@ -640,14 +642,13 @@ nav {
     text-transform: uppercase;
     color: var(--mid);
     text-decoration: none;
-    max-width: 48%;
     line-height: 1.4;
 
     &:hover { color: var(--ink); }
   }
 
   .next {
-    margin-left: auto;
+    grid-column: 2;
     text-align: right;
   }
 }
@@ -735,11 +736,11 @@ nav {
   }
 
   blockquote {
-    background: var(--warm);
+    background: var(--fill);
     border-left: 3px solid var(--faint);
     padding: 1.25rem 1.5rem;
     font-style: italic;
-    color: #3a3530;
+    color: #111111;
     font-size: 0.9rem;
     line-height: 1.65;
     cite {
@@ -794,7 +795,7 @@ nav {
   }
 
   &.is-placeholder {
-    background-color: var(--warm);
+    background-color: var(--fill);
     background-image:
       repeating-linear-gradient(0deg,   transparent, transparent 23px, var(--faint) 23px, var(--faint) 24px),
       repeating-linear-gradient(90deg,  transparent, transparent 23px, var(--faint) 23px, var(--faint) 24px);
