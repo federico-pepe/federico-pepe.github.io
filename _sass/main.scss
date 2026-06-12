@@ -331,7 +331,7 @@ nav {
 }
 
 .post-item-excerpt {
-  font-family: var(--serif);
+  font-family: var(--sans);
   font-size: 0.85rem;
   color: #111111;
   line-height: 1.62;
@@ -521,7 +521,6 @@ nav {
 
   ul, ol {
     padding-left: 1.5rem;
-    font-family: var(--serif);
 
     li + li { margin-top: 0.35rem; }
   }
@@ -599,6 +598,10 @@ nav {
     font-size: 0.68rem;
     letter-spacing: 0.05em;
     color: var(--mid);
+  }
+
+  .embed-container {
+    margin-bottom: 0.5rem;
   }
 }
 
