@@ -11,4 +11,6 @@ I made a video in English and Italian to explain what Extensions are, how to ins
 
 {% youtube "https://www.youtube.com/watch?v=_izRiBGngGI" %}
 
-All the Ableton Extensiond that I developed are available for free on my [GitHub here](https://github.com/federico-pepe/ableton-live-extensions).
+## Download the Ableton Extensions that I created for free
+
+All the Ableton Extensions that I developed are available for free on my [GitHub here](https://github.com/federico-pepe/ableton-live-extensions) or in this [Google Drive](https://drive.google.com/drive/folders/1e4i2kkBScA7mOjYec5ka9-72NUEYPtDh?usp=share_link) folder. Please note: the versions on Google Drive may not be up to date.
