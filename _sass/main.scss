@@ -14,7 +14,7 @@
 // ── Variables ─────────────────────────────────────────────────────────────────
 
 :root {
-  --bg:     #FAFAFA;
+  --bg:     #FFFFFF;
   --ink:    #030303;
   --mid:    #888888;
   --faint:  #E5E5E5;
@@ -41,7 +41,7 @@ html {
 }
 
 body {
-  font-family: var(--serif);
+  font-family: var(--sans);
   background: var(--bg);
   color: var(--ink);
   line-height: 1.7;
@@ -84,10 +84,11 @@ nav {
   padding: 0.7rem 0;
 
   .site-title {
+    text-transform: lowercase;
     font-family: var(--sans);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
-    letter-spacing: 0.14em;
+    letter-spacing: -1px;
     text-decoration: none;
     color: var(--ink);
   }
@@ -191,10 +192,9 @@ nav {
     display: block;
     order: 2;
     font-family: var(--sans);
-    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 700;
-    letter-spacing: 0.04em;
-    //text-transform: uppercase;
+    text-transform: lowercase;
     text-decoration: none;
     color: var(--ink);
     text-align: center;
@@ -222,7 +222,8 @@ nav {
   margin: 0.75rem 0 1.5rem;
   padding: 1.1rem 1.25rem;
   background: var(--fill);
-  border-left: 3px solid var(--faint);
+  //border-left: 3px solid var(--fill);
+  text-align: center;
 
   p {
     font-family: var(--serif);
@@ -238,8 +239,7 @@ nav {
   .colophon {
     margin: 0 0 2.5rem;
     padding: 1.25rem 1.5rem;
-    border-left: 3px solid var(--mid);
-
+    //border-left: 3px solid var(--mid);
     p { font-size: 0.9rem; }
   }
 }
@@ -484,18 +484,19 @@ nav {
   }
 
   h2 {
-    font-size: 0.7rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--mid);
-    margin-top: 2.5rem;
+    letter-spacing: -1px;
+    //text-transform: uppercase;
+    color: var(--ink);
+    margin: .75em 0
   }
 
   h3 {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 1.25em; 
+    margin: .83em 0;
+    letter-spacing: -1px;
   }
 
   h4 {
@@ -510,8 +511,8 @@ nav {
   a {
     color: var(--ink);
     text-decoration: underline;
-    text-underline-offset: 2px;
-    text-decoration-color: var(--faint);
+    text-underline-offset: 5px;
+    text-decoration-color: var(--accent);
 
     &:hover {
       color: var(--accent);
@@ -603,6 +604,12 @@ nav {
   .embed-container {
     margin-bottom: 0.5rem;
   }
+
+  h4,
+  blockquote, ul,
+  fieldset, form,
+  ol, dl, dir,
+  menu            { margin: 1.12em 0 }
 }
 
 // ── Post tags ─────────────────────────────────────────────────────────────────
