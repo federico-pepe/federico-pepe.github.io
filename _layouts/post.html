@@ -4,8 +4,8 @@ layout: default
 <article class="post">
   <header class="post-header">
     <div class="post-eyebrow">
-      {% if page.tags.size > 0 %}
-      <span class="post-tag">{{ page.tags | first }}</span>
+      {% if page.categories.size > 0 %}
+      <span class="post-tag">{{ page.categories | first }}</span>
       <span class="post-eyebrow-sep" aria-hidden="true"></span>
       {% endif %}
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>

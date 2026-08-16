@@ -20,7 +20,9 @@
   --faint:  #E5E5E5;
   --fill:   #F2F2F2;
   --accent: #0000FF;
-  --col:    700px;
+  --waring: rgb(255, 193, 7);
+  --warning-subtle: rgb(255, 243, 205);
+  --col:    750px;
   --sans:   system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --serif:  "Source Serif 4", ui-serif, Georgia, serif;
   --mono:   "Courier New", Courier, monospace;
@@ -476,6 +478,7 @@ nav {
     font-family: var(--sans);
     font-size: 1rem;
     //line-height: 1.78;
+    margin: 18px 0;
   }
 
   h2, h3, h4 {
@@ -545,7 +548,22 @@ nav {
       font-style: normal;
       margin-top: 1.25rem;
     }
+
+    &.warning {
+      background-color: var(--warning-subtle);
+      border-color: var(--waring);
+      &::before {
+        content: "\f33b";
+        display: block;
+        font-family: "bootstrap-icons";
+        font-style: normal;
+        font-size:x-large;
+        color: var(--waring);
+      }
+    }
   }
+
+  
 
   code {
     font-family: var(--mono);
